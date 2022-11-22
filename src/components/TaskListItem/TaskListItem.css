@@ -1,0 +1,45 @@
+.list-group-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid #3d5a80;
+    transition: background-color .2s ease-in-out;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-group-item button {
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.list-group-item textarea {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+}
+
+.list-group-item input {
+    display: block;
+    width: 300px;
+    line-height: 23px;
+    font-size: 15px;
+    /* text-align: center; */
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+}
+
+.list-group-item.done .fa-check {
+    
+    color: green;
+}
+
+.list-group-item .btn-trash {
+    color: #e5383b;
+}

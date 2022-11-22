@@ -1,0 +1,25 @@
+.app-add-form {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #3d5a80;
+    border-radius: 4px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, .15);
+    color: #fff;
+}
+
+.add-form {
+    margin-top: 20px;
+}
+
+.add-form input {
+    width: 350px;
+    margin-right: 20px;
+}
+
+.list-group-item input[type='file'] {
+    line-height: 23px;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
